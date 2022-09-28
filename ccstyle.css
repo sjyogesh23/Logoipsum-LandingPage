@@ -1,0 +1,47 @@
+body{
+    margin: auto;
+    padding: auto;
+}
+.menu{
+    display: inline-flex;
+}
+.logo{
+    display: flex;
+    justify-content: flex-start;
+    
+}
+.nav{    
+    justify-content: center;
+}
+.helpBut{    
+    justify-content: flex-end;
+}
+.nav ul li{
+    float: left;
+    list-style: none;
+}
+.nav ul li a{
+    padding: 0px 15px;
+    text-decoration: none;
+    display: block;
+}
+.but{
+    padding: 10px 30px;
+    border-radius: 2px;
+}
+.primary{
+    background: #319CFF;
+    color: white;
+    cursor: pointer;
+    border: none;
+}
+.primary:hover{
+    background: white;
+    color: #319CFF;
+}
+.menuList li a{    
+    color:black;
+}
+.onMenu{
+    color:#319CFF;
+}
